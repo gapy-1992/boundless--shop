@@ -18,14 +18,14 @@ step 6: At Page_product_chekhol-the-amity-affliction click on button_object
 step 7: Add visual checkpoint at Page_product_chekhol-the-amity-affliction",Low
 6,"step 1: Navigate to Page_cart
 step 2: Add visual checkpoint at Page_cart",Low
-5,"step 1: Navigate to Page_checkout_shipping-address
-step 2: Add visual checkpoint at Page_checkout_shipping-address",Trivial
 7,"step 1: Navigate to Page_checkout_info
 step 2: Add visual checkpoint at Page_checkout_info",Trivial
-8,"step 1: Navigate to Page_category_dlya-devushek
-step 2: Add visual checkpoint at Page_category_dlya-devushek",Trivial
+5,"step 1: Navigate to Page_checkout_shipping-address
+step 2: Add visual checkpoint at Page_checkout_shipping-address",Trivial
 9,"step 1: Navigate to Page_category_s-risunkom
 step 2: Add visual checkpoint at Page_category_s-risunkom",Trivial
+8,"step 1: Navigate to Page_category_dlya-devushek
+step 2: Add visual checkpoint at Page_category_dlya-devushek",Trivial
 10,"step 1: Navigate to Page_category_dlya-muzhchin
 step 2: Add visual checkpoint at Page_category_dlya-muzhchin",Trivial
 11,"step 1: Navigate to Page_checkout
