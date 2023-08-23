@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
-import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -59,6 +59,20 @@ WebUI.enhancedClick(testObj)
 
 'step 5: At Page_product_chekhol-the-amity-affliction click on button_object'
 
+testObj = findTestObject('Object Repository/Page_product_chekhol-the-amity-affliction/button_object_2')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/product/chekhol-the-amity-affliction(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 6: At Page_product_chekhol-the-amity-affliction click on button_object'
+
 testObj = findTestObject('Object Repository/Page_product_chekhol-the-amity-affliction/button_object_1')
 
 WebUI.delay(3)
@@ -71,7 +85,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/product/chekhol-the-amity-affliction(?:#.*
 
 WebUI.enhancedClick(testObj)
 
-'step 6: Add visual checkpoint at Page_product_chekhol-the-amity-affliction'
+'step 7: Add visual checkpoint at Page_product_chekhol-the-amity-affliction'
 
 WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00002_visual_checkpoint')
 
