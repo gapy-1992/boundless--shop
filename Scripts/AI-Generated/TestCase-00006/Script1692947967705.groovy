@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page_category_s-risunkom'
+'step 1: Navigate to Page_cart'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/category/s-risunkom')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/cart')
 
-'step 2: Add visual checkpoint at Page_category_s-risunkom'
+'step 2: Add visual checkpoint at Page_cart'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00008_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00006_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
