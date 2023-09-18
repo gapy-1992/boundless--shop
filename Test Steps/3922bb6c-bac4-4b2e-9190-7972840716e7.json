@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Do navigate at Page_home",
+        "step 2: At Page_home click on hyperlink_category_chekhly_dlya_samsung --> navigate to Page_category_chekhly-dlya-samsung",
+        "step 3: At Page_category_chekhly-dlya-samsung click on hyperlink_product_samsung_orange_book --> navigate to Page_product_samsung-orange-book-1",
+        "step 4: At Page_product_samsung-orange-book-1 click on label_object",
+        "step 5: At Page_product_samsung-orange-book-1 input on input_object",
+        "step 6: At Page_product_samsung-orange-book-1 click on button_object",
+        "step 7: Add visual checkpoint at Page_product_samsung-orange-book-1"
+    ]
+}
